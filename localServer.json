@@ -218,5 +218,12 @@
             "category": "Others"
         }
     ],
-    "CartItems": []
+    "CartItems": [],
+    "users":[
+        {
+            "name": "daniel@gmail.com",
+            "password": "12345678",
+            "cart":[]
+        }
+    ]
 }

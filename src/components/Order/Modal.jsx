@@ -18,7 +18,7 @@ const Modal = ({ item, onClose }) => {
 
     const handleAddToCart = async (id) => {
         // Handle add to cart logic here
-        const allItems = [...breakfast, ]
+        // const allItems = [...breakfast, ]
 
         alert(`Product ${id} added successfully`)
 
