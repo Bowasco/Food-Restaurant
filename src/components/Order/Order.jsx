@@ -3,8 +3,8 @@ import Navbar from '../Navbar'
 import Delivery from './Delivery'
 import Dishes from './Dishes'
 import Main from './Main'
-import Contact from '../Home/Contact'
 import Footer from '../Home/Footer'
+import Contact from '../Menu/Contact'
 
 const Order = () => {
   return (
@@ -13,7 +13,7 @@ const Order = () => {
       <Delivery/>
       <Dishes/>
       <Main/>
-      <Contact/>
+      <Contact />
       <Footer/>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Button'
+import { Link } from 'react-router-dom'
 
 const Dishes = () => {
     return (
@@ -27,10 +27,9 @@ const Dishes = () => {
                 </ul>
             </div>
             <div>
-                <Button
-                    className="bg-red-600 text-white px-10 py-3 text-lg border border-transparent hover:bg-white transition-all duration-300 hover:text-customRed hover:border-customRed"
-                    textContent={'View Cart'}
-                />
+                <Link
+                className="bg-red-600 text-white px-10 py-3 text-lg border border-transparent hover:bg-white transition-all duration-300 hover:text-customRed hover:border-customRed"
+                to={'/cart'}> View Cart</Link>
             </div>
         </div>
 

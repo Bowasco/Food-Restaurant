@@ -8,6 +8,7 @@ import Chips from '../../images/download (3).jpeg'
 import Browny from '../../images/2a1a02_8b0e33571e154ce0af83cfb499ae02ff_mv2-removebg-preview.png'
 import Parfait from '../../images/2a1a02_f8dbb998cd5c415cb8b5005dabded533~mv2.webp'
 import Button from '../Button'
+import { Link } from 'react-router-dom'
 
 const Second = () => {
     return (
@@ -49,10 +50,10 @@ const Second = () => {
                     </div>
                 </div>
                 <div className="flex justify-center items-center mt-10">
-                <Button
-                            className="bg-red-600 text-white px-16 py-5 text-lg border border-transparent hover:bg-white transition-all duration-300 hover:text-customRed hover:border-customRed"
-                            textContent={'Full Menu'}
-                        />
+                    <Button
+                        className="bg-red-600 text-white px-16 py-5 text-lg border border-transparent hover:bg-white transition-all duration-300 hover:text-customRed hover:border-customRed"
+                        textContent={'Full Menu'}
+                    />
                 </div>
             </div>
 
@@ -76,10 +77,10 @@ const Second = () => {
                     <h3 className='text-xl text-center font-bold'>SATISFYING YOUR CRAVING JUST GOT EASIER</h3>
                     <p className='text-center'>I'm a paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a little more about you.</p>
                     <div className="flex justify-center items-center mt-10">
-                        <Button
-                            className="bg-red-600 text-white px-16 py-5 text-lg border border-transparent hover:bg-white transition-all duration-300 hover:text-customRed hover:border-customRed"
-                            textContent={'Order Online'}
-                        />
+                        <Link className='bg-red-600 text-white px-16 py-5 text-lg border border-transparent hover:bg-white transition-all duration-300 hover:text-customRed hover:border-customRed'
+                            to={'/order'}>
+                            Order Online
+                        </Link>
                     </div>
                 </div>
             </div>

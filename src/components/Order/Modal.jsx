@@ -17,12 +17,14 @@ const Modal = ({ item, onClose }) => {
     };
 
     const handleAddToCart = async (id) => {
-        // Handle add to cart logic here
-        const allItems = [...breakfast, ]
+        const FoodResponse = await axios.get('http://localhost:1111/Meals')
+        const Foods = FoodResponse.data;
+        const Food = Foods.find((data) => data.id == id)
 
-        alert(`Product ${id} added successfully`)
+        const addToCart = await axios.post('http://localhost:1111/CartItems', Food)
+        console.log(addToCart);
+        
 
-        console.log(`Added ${quantity} ${item.name} to cart`);
         onClose(); // Close the modal after adding to cart
     };
 

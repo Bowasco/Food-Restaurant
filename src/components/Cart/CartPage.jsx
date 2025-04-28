@@ -1,20 +1,19 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import FirstMenu from './FirstMenu'
-import MainMenu from './MainMenu'
-import Contact from './Contact'
+import Cart from './Cart'
+import ContactPage from '../Home/Contact'
+import Contact from '../Menu/Contact'
 import Footer from '../Home/Footer'
 
-const Menu = () => {
+const CartPage = () => {
   return (
     <div>
         <Navbar />
-        <FirstMenu />
-        <MainMenu />
+        <Cart />
         <Contact />
         <Footer />
     </div>
   )
 }
 
-export default Menu
+export default CartPage

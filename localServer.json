@@ -1,222 +1,237 @@
 {
-    "Meals": [
-        {
-            "name": "Toast with Scrambled Eggs",
-            "Description": "Golden-brown toast served with fluffy scrambled eggs, lightly seasoned",
-            "price": "3000",
-            "id": "1",
-            "category": "Breakfast"
-        },
-        {
-            "name": "French Toast",
-            "Description": "Thick slices of bread dipped in a cinnamon-egg mixture, fried until golden, and served with syrup.",
-            "price": "5000",
-            "id": "2",
-            "category": "Breakfast"
-        },
-        {
-            "name": "Pancakes and Omelette",
-            "Description": "Soft, fluffy pancakes served with a classic omelette stuffed with onions, peppers, and cheese.",
-            "price": "8000",
-            "id": "3",
-            "category": "Breakfast"
-        },
-        {
-            "name": "Oatmeal with Fruits",
-            "Description": "A bowl of warm oatmeal topped with fresh seasonal fruits and a drizzle of honey.",
-            "price": "3500",
-            "id": "4",
-            "category": "Breakfast"
-        },
-        {
-            "name": "Egg Sandwich",
-            "Description": "A soft sandwich filled with creamy scrambled eggs, cheddar cheese, and fresh veggies.",
-            "price": "5500",
-            "id": "5",
-            "category": "Breakfast"
-        },
-        {
-            "name": "Jollof Rice with Chicken",
-            "Description": "Spicy tomato-based rice, served with grilled or fried chicken and a side of plantains.",
-            "price": "8500",
-            "id": "6",
-            "category": "Lunch"
-        },
-        {
-            "name": "Fried Rice and Prawns",
-            "Description": "Stir-fried rice mixed with vegetables, served with juicy grilled prawns.",
-            "price": "9500",
-            "id": "7",
-            "category": "Lunch"
-        },
-        {
-            "name": "Coconut Rice with Beef",
-            "Description": "Coconut-flavored rice paired with tender, spicy beef chunks and a side of coleslaw.",
-            "price": "9500",
-            "id": "8",
-            "category": "Lunch"
-        },
-        {
-            "name": "Spaghetti Bolognese",
-            "Description": "Spaghetti tossed in a rich, savory tomato-meat sauce, topped with parmesan.",
-            "price": "6500",
-            "id": "9",
-            "category": "Lunch"
-        },
-        {
-            "name": "Chicken Wrap",
-            "Description": "Grilled chicken strips, lettuce, tomatoes, and a tangy sauce wrapped in soft flatbread.",
-            "price": "7500",
-            "id": "10",
-            "category": "Lunch"
-        },
-        {
-            "name": "Amala with Ewedu & Gbegiri",
-            "Description": "Traditional Nigerian yam flour dish served with a rich, savory ewedu soup and gbegiri.",
-            "price": "8500",
-            "id": "11",
-            "category": "Dinner"
-        },
-        {
-            "name": "Pounded Yam with Egusi Soup",
-            "Description": "Soft pounded yam served with a delicious melon seed-based soup filled with meats and vegetables.",
-            "price": "9500",
-            "id": "12",
-            "category": "Dinner"
-        },
-        {
-            "name": "Rice & Stew with Fish",
-            "Description": "Steamed white rice with a spicy tomato stew, served with fried or grilled fish.",
-            "price": "9500",
-            "id": "13",
-            "category": "Dinner"
-        },
-        {
-            "name": "Grilled Chicken with Vegetables",
-            "Description": "Juicy, seasoned grilled chicken served with steamed mixed vegetables.",
-            "price": "6500",
-            "id": "14",
-            "category": "Dinner"
-        },
-        {
-            "name": "Grilled Fish with Rice",
-            "Description": "Whole grilled fish marinated in spices, served with jollof or fried rice.",
-            "price": "7500",
-            "id": "15",
-            "category": "Dinner"
-        },
-        {
-            "name": "Seafood Platter (Shrimp, Fish, Crab)",
-            "Description": "A luxurious seafood platter featuring grilled shrimp, fish, and crab served with garlic butter.",
-            "price": "8500",
-            "id": "16",
-            "category": "Specials"
-        },
-        {
-            "name": "Lamb Chops with Garlic Mashed Potatoes",
-            "Description": "Grilled lamb chops with a side of creamy garlic mashed potatoes and sautéed vegetables.",
-            "price": "9500",
-            "id": "17",
-            "category": "Specials"
-        },
-        {
-            "name": "Beef Stir-Fry with Rice",
-            "Description": "Sliced beef stir-fried with vegetables in a savory sauce, served with steamed rice.",
-            "price": "9500",
-            "id": "18",
-            "category": "Specials"
-        },
-        {
-            "name": "Roast Chicken with Vegetables",
-            "Description": "Herb-roasted chicken served with roasted vegetables and mashed potatoes.",
-            "price": "6500",
-            "id": "19",
-            "category": "Specials"
-        },
-        {
-            "name": "Fish and Chips",
-            "Description": "Crispy battered fish served with golden fries and a side of tartar sauce.",
-            "price": "7500",
-            "id": "20",
-            "category": "Specials"
-        },
-        {
-            "name": "Chocolate Cake",
-            "Description": "A rich chocolate cake with layers of chocolate frosting.",
-            "price": "8500",
-            "id": "21",
-            "category": "Desserts"
-        },
-        {
-            "name": "Cheesecake",
-            "Description": "A creamy cheesecake with a graham cracker crust.",
-            "price": "9500",
-            "id": "22",
-            "category": "Desserts"
-        },
-        {
-            "name": "Brownies",
-            "Description": "Fudgy chocolate brownies with a soft center.",
-            "price": "9500",
-            "id": "23",
-            "category": "Desserts"
-        },
-        {
-            "name": "Vanilla Ice Cream with Chocolate Sauce",
-            "Description": "Creamy vanilla ice cream drizzled with rich chocolate sauce.",
-            "price": "6500",
-            "id": "24",
-            "category": "Desserts"
-        },
-        {
-            "name": "Apple Pie with Ice Cream",
-            "Description": "Warm apple pie served with a scoop of vanilla ice cream.",
-            "price": "7500",
-            "id": "25",
-            "category": "Desserts"
-        },
-        {
-            "name": "Samosa",
-            "Description": "Crispy triangular pastry stuffed with spiced meat or vegetables.",
-            "price": "8500",
-            "id": "26",
-            "category": "Others"
-        },
-        {
-            "name": "Spring Rolls",
-            "Description": "Crispy fried rolls filled with vegetables or meat, served with a dipping sauce.",
-            "price": "9500",
-            "id": "27",
-            "category": "Others"
-        },
-        {
-            "name": "Chicken Wings",
-            "Description": "Juicy, crispy chicken wings in your choice of sauce: BBQ, Buffalo, or Honey Garlic.",
-            "price": "9500",
-            "id": "28",
-            "category": "Others"
-        },
-        {
-            "name": "Smoothies",
-            "Description": "Freshly blended smoothies in flavors like banana, strawberry, or mango.",
-            "price": "6500",
-            "id": "29",
-            "category": "Others"
-        },
-        {
-            "name": "Freshly Squeezed Juice",
-            "Description": "Freshly squeezed fruit juices in orange, pineapple, or mixed fruit flavors.",
-            "price": "7500",
-            "id": "30",
-            "category": "Others"
-        },
-        {
-            "name": "Milkshakes",
-            "Description": "Thick, creamy milkshakes in chocolate, vanilla, or strawberry.",
-            "price": "7500",
-            "id": "31",
-            "category": "Others"
-        }
-    ],
-    "CartItems": []
+  "Meals": [
+    {
+      "name": "Toast with Scrambled Eggs",
+      "Description": "Golden-brown toast served with fluffy scrambled eggs, lightly seasoned",
+      "price": "3000",
+      "id": "1",
+      "category": "Breakfast"
+    },
+    {
+      "name": "French Toast",
+      "Description": "Thick slices of bread dipped in a cinnamon-egg mixture, fried until golden, and served with syrup.",
+      "price": "5000",
+      "id": "2",
+      "category": "Breakfast"
+    },
+    {
+      "name": "Pancakes and Omelette",
+      "Description": "Soft, fluffy pancakes served with a classic omelette stuffed with onions, peppers, and cheese.",
+      "price": "8000",
+      "id": "3",
+      "category": "Breakfast"
+    },
+    {
+      "name": "Oatmeal with Fruits",
+      "Description": "A bowl of warm oatmeal topped with fresh seasonal fruits and a drizzle of honey.",
+      "price": "3500",
+      "id": "4",
+      "category": "Breakfast"
+    },
+    {
+      "name": "Egg Sandwich",
+      "Description": "A soft sandwich filled with creamy scrambled eggs, cheddar cheese, and fresh veggies.",
+      "price": "5500",
+      "id": "5",
+      "category": "Breakfast"
+    },
+    {
+      "name": "Jollof Rice with Chicken",
+      "Description": "Spicy tomato-based rice, served with grilled or fried chicken and a side of plantains.",
+      "price": "8500",
+      "id": "6",
+      "category": "Lunch"
+    },
+    {
+      "name": "Fried Rice and Prawns",
+      "Description": "Stir-fried rice mixed with vegetables, served with juicy grilled prawns.",
+      "price": "9500",
+      "id": "7",
+      "category": "Lunch"
+    },
+    {
+      "name": "Coconut Rice with Beef",
+      "Description": "Coconut-flavored rice paired with tender, spicy beef chunks and a side of coleslaw.",
+      "price": "9500",
+      "id": "8",
+      "category": "Lunch"
+    },
+    {
+      "name": "Spaghetti Bolognese",
+      "Description": "Spaghetti tossed in a rich, savory tomato-meat sauce, topped with parmesan.",
+      "price": "6500",
+      "id": "9",
+      "category": "Lunch"
+    },
+    {
+      "name": "Chicken Wrap",
+      "Description": "Grilled chicken strips, lettuce, tomatoes, and a tangy sauce wrapped in soft flatbread.",
+      "price": "7500",
+      "id": "10",
+      "category": "Lunch"
+    },
+    {
+      "name": "Amala with Ewedu & Gbegiri",
+      "Description": "Traditional Nigerian yam flour dish served with a rich, savory ewedu soup and gbegiri.",
+      "price": "8500",
+      "id": "11",
+      "category": "Dinner"
+    },
+    {
+      "name": "Pounded Yam with Egusi Soup",
+      "Description": "Soft pounded yam served with a delicious melon seed-based soup filled with meats and vegetables.",
+      "price": "9500",
+      "id": "12",
+      "category": "Dinner"
+    },
+    {
+      "name": "Rice & Stew with Fish",
+      "Description": "Steamed white rice with a spicy tomato stew, served with fried or grilled fish.",
+      "price": "9500",
+      "id": "13",
+      "category": "Dinner"
+    },
+    {
+      "name": "Grilled Chicken with Vegetables",
+      "Description": "Juicy, seasoned grilled chicken served with steamed mixed vegetables.",
+      "price": "6500",
+      "id": "14",
+      "category": "Dinner"
+    },
+    {
+      "name": "Grilled Fish with Rice",
+      "Description": "Whole grilled fish marinated in spices, served with jollof or fried rice.",
+      "price": "7500",
+      "id": "15",
+      "category": "Dinner"
+    },
+    {
+      "name": "Seafood Platter (Shrimp, Fish, Crab)",
+      "Description": "A luxurious seafood platter featuring grilled shrimp, fish, and crab served with garlic butter.",
+      "price": "8500",
+      "id": "16",
+      "category": "Specials"
+    },
+    {
+      "name": "Lamb Chops with Garlic Mashed Potatoes",
+      "Description": "Grilled lamb chops with a side of creamy garlic mashed potatoes and sautéed vegetables.",
+      "price": "9500",
+      "id": "17",
+      "category": "Specials"
+    },
+    {
+      "name": "Beef Stir-Fry with Rice",
+      "Description": "Sliced beef stir-fried with vegetables in a savory sauce, served with steamed rice.",
+      "price": "9500",
+      "id": "18",
+      "category": "Specials"
+    },
+    {
+      "name": "Roast Chicken with Vegetables",
+      "Description": "Herb-roasted chicken served with roasted vegetables and mashed potatoes.",
+      "price": "6500",
+      "id": "19",
+      "category": "Specials"
+    },
+    {
+      "name": "Fish and Chips",
+      "Description": "Crispy battered fish served with golden fries and a side of tartar sauce.",
+      "price": "7500",
+      "id": "20",
+      "category": "Specials"
+    },
+    {
+      "name": "Chocolate Cake",
+      "Description": "A rich chocolate cake with layers of chocolate frosting.",
+      "price": "8500",
+      "id": "21",
+      "category": "Desserts"
+    },
+    {
+      "name": "Cheesecake",
+      "Description": "A creamy cheesecake with a graham cracker crust.",
+      "price": "9500",
+      "id": "22",
+      "category": "Desserts"
+    },
+    {
+      "name": "Brownies",
+      "Description": "Fudgy chocolate brownies with a soft center.",
+      "price": "9500",
+      "id": "23",
+      "category": "Desserts"
+    },
+    {
+      "name": "Vanilla Ice Cream with Chocolate Sauce",
+      "Description": "Creamy vanilla ice cream drizzled with rich chocolate sauce.",
+      "price": "6500",
+      "id": "24",
+      "category": "Desserts"
+    },
+    {
+      "name": "Apple Pie with Ice Cream",
+      "Description": "Warm apple pie served with a scoop of vanilla ice cream.",
+      "price": "7500",
+      "id": "25",
+      "category": "Desserts"
+    },
+    {
+      "name": "Samosa",
+      "Description": "Crispy triangular pastry stuffed with spiced meat or vegetables.",
+      "price": "8500",
+      "id": "26",
+      "category": "Others"
+    },
+    {
+      "name": "Spring Rolls",
+      "Description": "Crispy fried rolls filled with vegetables or meat, served with a dipping sauce.",
+      "price": "9500",
+      "id": "27",
+      "category": "Others"
+    },
+    {
+      "name": "Chicken Wings",
+      "Description": "Juicy, crispy chicken wings in your choice of sauce: BBQ, Buffalo, or Honey Garlic.",
+      "price": "9500",
+      "id": "28",
+      "category": "Others"
+    },
+    {
+      "name": "Smoothies",
+      "Description": "Freshly blended smoothies in flavors like banana, strawberry, or mango.",
+      "price": "6500",
+      "id": "29",
+      "category": "Others"
+    },
+    {
+      "name": "Freshly Squeezed Juice",
+      "Description": "Freshly squeezed fruit juices in orange, pineapple, or mixed fruit flavors.",
+      "price": "7500",
+      "id": "30",
+      "category": "Others"
+    },
+    {
+      "name": "Milkshakes",
+      "Description": "Thick, creamy milkshakes in chocolate, vanilla, or strawberry.",
+      "price": "7500",
+      "id": "31",
+      "category": "Others"
+    }
+  ],
+  "CartItems": [
+    {
+      "id": "5",
+      "name": "Egg Sandwich",
+      "Description": "A soft sandwich filled with creamy scrambled eggs, cheddar cheese, and fresh veggies.",
+      "price": "5500",
+      "category": "Breakfast"
+    },
+    {
+      "id": "27",
+      "name": "Spring Rolls",
+      "Description": "Crispy fried rolls filled with vegetables or meat, served with a dipping sauce.",
+      "price": "9500",
+      "category": "Others"
+    }
+  ]
 }

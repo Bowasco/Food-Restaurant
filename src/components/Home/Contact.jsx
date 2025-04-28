@@ -5,7 +5,7 @@ function ContactPage() {
     <div className="flex flex-col lg:flex-row justify-between w-full max-w-6xl mx-auto py-20">
       {/* Contact Form */}
       <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-        <h2>CONTACT US</h2>
+        <h2 className='text-2xl font-bold'>CONTACT US</h2>
         <h3>DROP US A LINE AND WE'LL GET BACK TO YOU</h3>
         <form className="w-full max-w-lg mx-auto">
           {/* First Name and Last Name in Flex */}
